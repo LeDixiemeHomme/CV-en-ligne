@@ -1,0 +1,185 @@
+@charset "utf-8";
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url("pictures/fond.png");
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+    color: #4B0082;
+}
+
+a:hover {
+    color: crimson;
+}
+
+header {
+    background-image: url("pictures/fondentete.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+}
+
+.prenomnomage {
+    color: #00008B;
+    margin-bottom: 0%;
+    padding-bottom: 1%;
+    padding-top: 3%;
+    margin-left: 10%;
+    font-size: 45px;
+}
+
+.adresse {
+    color: black;
+    margin-top: 0%;
+    padding-top: 1%;
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+.coordonnees {
+    color: black;
+    margin-top: 0%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 1%;
+    margin-left: 4%;
+    margin-right: 58%;
+    font-size: 18px;
+    border: 3px blue double;
+    margin-right: 58%;
+}
+
+.photoCV {
+    width: 185px;
+    height: 220px;
+    margin-top: 20px;
+    margin-right: 20px;
+    float: right;
+    border: 6px black double;
+}
+
+.parag {
+    margin-left: 5%;
+    padding-bottom: 1%;
+    font-size: 120%;
+}
+
+.parag1 {
+    padding-bottom: 1%;
+    font-size: 120%;
+    text-align: center;
+}
+
+.parag2 {
+    margin-left: 5%;
+    margin-right: 35%;
+    padding-bottom: 3%;
+    padding-top: 1%;
+    font-size: 120%;
+}
+
+.photo_BTS {
+    width: 13%;
+    height: 12%;
+    border: 1px black ridge;
+}
+
+.photo_lycee {
+    width: 13%;
+    height: 12%;
+    border: 1px black ridge;
+}
+
+.photo_ISTOM {
+    width: 13%;
+    height: 12%;
+    border: 1px black ridge;
+}
+
+.photocliquables {
+    text-align: center;
+    padding-bottom: 1%;    
+}
+
+.image_projets {
+    float: right;
+    margin-right: 6%;
+    margin-top: 3%;
+    border: 1px black ridge;
+}
+
+.lien_vers_projet {
+    text-align: center;
+    font-size: 150%;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    text-decoration: none;
+}
+
+.lien_vers_projet a:hover {
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: 0%;
+    margin-left: 0%;
+    color: darkblue;
+    border: 3px darkblue inset;
+}
+
+.listeloisirs {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 130%;
+    text-align: center;
+    list-style: none;
+}
+
+footer {
+    background-image: url("pictures/fondentete.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 0.5%;
+    padding-top: 1%;
+}
+
+.accordion {
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.panel {
+
+    display: none;
+    overflow: hidden;
+    background-image: url("pictures/fond_panel.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 1%;
+    border: 4px grey ridge;
+}
+
+button {
+    margin-bottom: 1%;
+    background-image: url("pictures/fond_button.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: beige;
+}
+
+.button:hover {}
+
+.button::after {}
